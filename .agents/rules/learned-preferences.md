@@ -1,0 +1,20 @@
+# Preferências Aprendidas do Usuário
+
+Regras e preferências visuais/operacionais aprovadas pelo usuário via `/learning`.
+
+## Design, GCs e Direção Visual de Vídeos
+
+- **GCs centralizados com animação `blur-up`:** Em vídeos verticais (`9:16`) para tráfego pago/comercial, manter os GCs sempre **centralizados horizontalmente** dentro da zona segura inferior (`left`/`right` simétricos, `alignItems: "center"`), usando animação padrão **`blur-up`** na entrada (subindo suavemente enquanto sai do desfoque) com saída suave em *blur-out*.
+- **Curvas ágeis em GCs curtos e saída em `totalFrames - 1`:** Em GCs rápidos (~`29–30 frames`), acelerar a transição `blur-up`/`blur-out` (`6f` entrada / `4f` saída) para garantir nitidez durante toda a fala, e sempre interpolar saídas visuais e de áudio até `totalFrames - 1` (nunca `totalFrames`) para zerar a opacidade sem piscadas em sequências consecutivas.
+- **Topo da tela limpo:** Não adicionar barrinha temporal de progresso no topo nem selos/badges fixos no canto superior, salvo pedido explícito do usuário.
+- **Tipografia e estética orgânica ("menos cara de IA"):** Priorizar a fonte **`Montserrat`** (`Black` / `ExtraBold`, instalada no sistema) em GCs comerciais de alto contraste; evitar estética genérica de IA, neon/glow excessivo ou layouts engessados (referências aprovadas: `lemo-opuscar`, `vox-explainer`, `hyperframes`, `article-highlights`), e sempre informar explicitamente ao usuário qual fonte foi utilizada.
+
+## Edição Comercial, Enquadramento e Organização
+
+- **Diferenciação Horizontal (`16:9`) vs. Vertical (`9:16`) e rotação real:** Identificar previamente a orientação de saída do vídeo (`16:9` horizontal `1920×1080` vs. `9:16` vertical `1080×1920`) e sempre checar metadados de `rotation` (`-90°`, `90°`, `270°`) nos `.MOV` brutos antes de calcular dimensões e `Scale`, tratando corretamente planos verticais e horizontais sem encolhimentos nem distorções.
+- **Decupagem sem contagem + B-roll cobrindo leitura:** Ao editar vídeos gravados brutos, sempre conferir áudio (RMS/transcrição) e contact sheets visuais antes dos cortes para eliminar deixas de direção (como `"dois, três e"`), e cobrir automaticamente trechos em que o apresentador olha para baixo/celular lendo texto usando B-rolls alinhados exatamente ao assunto falado.
+- **Áudio original de falas vinculado ao vídeo no Premiere:** Nunca apagar ou substituir os áudios originais de fala dos clipes `.MOV` por uma trilha avulsa desvinculada na timeline do Premiere; manter sempre o áudio original de fala na faixa `A1` diretamente **vinculado (`<link>`)** ao respectivo clipe de vídeo na `V1`, preservando a edição de cortes e ajustes no Premiere sem perder a sincronia.
+- **Organização por cliente (`Clientes/<CLIENTE>/`):** Para produção contínua ou múltiplos vídeos de um mesmo cliente, estruturar em `Clientes/<NOME_DO_CLIENTE>/` separando `00_BRUTOS_ORIGINAIS`, `01_ATIVOS_COMPARTILHADOS/` (trilhas, SFX e guia de identidade) e uma subpasta própria por vídeo (`VIDEO_1_...`, `VIDEO_2_...`), copiando — nunca movendo destrutivamente — ativos pré-existentes.
+- **Preservação de versões e arquivos criados (Não-Destrutivo):** Nunca apagar, mover removendo da origem ou sobrescrever arquivos originais nem edições/renderizações que já foram criadas ou editadas. Ao reorganizar pastas, **sempre copiar** (preservando a versão anterior no lugar); ao atualizar um projeto, código, XML ou vídeo, **sempre criar uma versão nova e incremental** (`_v2`, `_v3`, etc.), mantendo as versões anteriores intactas para que o usuário possa editar ou voltar a elas a qualquer momento.
+- **Idioma e links:** Responder sempre em português direto e conciso com links clicáveis (`file://`) para os entregáveis.
+

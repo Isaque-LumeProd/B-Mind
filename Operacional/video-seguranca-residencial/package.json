@@ -1,0 +1,26 @@
+{
+  "name": "video-seguranca-residencial",
+  "version": "1.0.0",
+  "description": "Vídeo 9:16 (Reels/TikTok/Shorts) sobre Segurança Residencial & Casa Inteligente gerado com ECC (content-engine + remotion-video-creation)",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts SegurancaResidencial9x16 out/seguranca-residencial-9x16.mp4",
+    "render:audiovisual": "remotion render src/index.ts AudiovisualEmpresa9x16 out/importancia-audiovisual-9x16.mp4",
+    "render:paxvida": "remotion render src/index.ts PaxVidaVideo1 out/paxvida-video1-preview.mp4",
+    "render:paxvida_v2": "remotion render src/index.ts PaxVidaVideo2 out/paxvida-video2-preview.mp4",
+    "thumbnail": "remotion still src/index.ts SegurancaResidencial9x16 out/capa-reels.png --frame=420",
+    "thumbnail:audiovisual": "remotion still src/index.ts AudiovisualEmpresa9x16 out/capa-audiovisual-reels.png --frame=650"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.242",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.242"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.6.3"
+  }
+}
+

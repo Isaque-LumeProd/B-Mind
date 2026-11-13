@@ -1,0 +1,40 @@
+# === Brutos e Vídeos Pesados (sincronizar fora do Git via Drive/HD) ===
+Video Pax/
+*.mov
+*.MOV
+*.mp4
+*.MP4
+*.mkv
+*.avi
+*.prproj
+*.aep
+
+# === Dependências e Renders Temporários do Motor Remotion ===
+**/node_modules/
+Operacional/video-seguranca-residencial/out/
+Operacional/video-seguranca-residencial/public/paxvida/
+Operacional/video-seguranca-residencial/public/paxvida_v2/
+Operacional/video-seguranca-residencial/public/audio/
+Operacional/video-seguranca-residencial/.remotion/
+
+# === Repositórios Terceiros Aninhados (restaurados pelo setup_segundo_pc.ps1) ===
+Operacional/ECC/
+Operacional/lemo-opuscar/
+Operacional/vercel-skills/
+
+# === NTFS Junctions do Windows (recriadas automaticamente no 2º PC) ===
+Mind/Agentes
+Mind/Regras
+Mind/Skills
+Mind/Workflows
+Clientes/PAX VIDA/00_BRUTOS_ORIGINAIS
+
+# === Ambiente, Logs, Segredos e Temporários ===
+.env
+.env.*
+*.pem
+*.key
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini

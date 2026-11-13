@@ -1,0 +1,98 @@
+{
+  "01-hook": {
+    "text": "Ter uma câmera comum em casa só serve pra você assistir ao prejuízo no dia seguinte.",
+    "durationMs": 5522,
+    "events": [
+      {
+        "type": "SentenceBoundary",
+        "text": "Ter uma câmera comum em casa só serve pra você assistir ao prejuízo no dia seguinte.",
+        "startMs": 100,
+        "endMs": 5072
+      }
+    ]
+  },
+  "02-problema": {
+    "text": "Segurança de verdade não é gravar o que aconteceu. É fazer a casa reagir antes de alguém chegar na porta.",
+    "durationMs": 7258,
+    "events": [
+      {
+        "type": "SentenceBoundary",
+        "text": "Segurança de verdade não é gravar o que aconteceu.",
+        "startMs": 100,
+        "endMs": 3454
+      },
+      {
+        "type": "SentenceBoundary",
+        "text": "É fazer a casa reagir antes de alguém chegar na porta.",
+        "startMs": 3404,
+        "endMs": 6808
+      }
+    ]
+  },
+  "03-perimetro": {
+    "text": "Começa na calçada: uma câmera inteligente ignora gatos ou galhos, mas se alguém para no portão de madrugada, ela acende o refletor na hora.",
+    "durationMs": 8525,
+    "events": [
+      {
+        "type": "SentenceBoundary",
+        "text": "Começa na calçada: uma câmera inteligente ignora gatos ou galhos, mas se alguém para no portão de madrugada, ela acende o refletor na hora.",
+        "startMs": 100,
+        "endMs": 8075
+      }
+    ]
+  },
+  "04-fechadura": {
+    "text": "Na porta, nada de chave copiada. Na fechadura digital, você libera uma senha que vale só das duas às quatro da tarde e tranca sozinha.",
+    "durationMs": 9155,
+    "events": [
+      {
+        "type": "SentenceBoundary",
+        "text": "Na porta, nada de chave copiada.",
+        "startMs": 100,
+        "endMs": 2874
+      },
+      {
+        "type": "SentenceBoundary",
+        "text": "Na fechadura digital, você libera uma senha que vale só das duas às quatro da tarde e tranca sozinha.",
+        "startMs": 2824,
+        "endMs": 8705
+      }
+    ]
+  },
+  "05-sensores": {
+    "text": "Nos fundos, sensores nas janelas disparam alerta no primeiro milímetro. E quando você viaja, as luzes da sala ligam à noite simulando gente em casa.",
+    "durationMs": 9780,
+    "events": [
+      {
+        "type": "SentenceBoundary",
+        "text": "Nos fundos, sensores nas janelas disparam alerta no primeiro milímetro.",
+        "startMs": 100,
+        "endMs": 4492
+      },
+      {
+        "type": "SentenceBoundary",
+        "text": "E quando você viaja, as luzes da sala ligam à noite simulando gente em casa.",
+        "startMs": 4442,
+        "endMs": 9330
+      }
+    ]
+  },
+  "06-fechamento": {
+    "text": "Três camadas simples: câmera que acende a luz, fechadura sem chave e sensor nas janelas. Sua casa deixa de ser um alvo fácil.",
+    "durationMs": 9021,
+    "events": [
+      {
+        "type": "SentenceBoundary",
+        "text": "Três camadas simples: câmera que acende a luz, fechadura sem chave e sensor nas janelas.",
+        "startMs": 100,
+        "endMs": 5854
+      },
+      {
+        "type": "SentenceBoundary",
+        "text": "Sua casa deixa de ser um alvo fácil.",
+        "startMs": 5804,
+        "endMs": 8571
+      }
+    ]
+  }
+}
