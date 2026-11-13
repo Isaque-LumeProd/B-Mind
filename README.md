@@ -24,5 +24,6 @@ Repositório central de trabalho sincronizado entre dois computadores:
    .\setup_segundo_pc.ps1
    ```
 4. No uso diário entre os dois PCs:
-   - Ao sentar no PC: `git pull`
-   - Ao encerrar alterações: `git add .` → `git commit -m "chore: atualiza projetos"` → `git push`
+   - Ao sentar no PC: digite `/start-mind` (ou rode `git pull`) para puxar as novidades e carregar o contexto salvo em `HANDOFF_SESSAO.md`
+   - Ao encerrar alterações: digite `/end` (ou rode `git add .` → `git commit -m "chore: atualiza projetos"` → `git push`)
+
