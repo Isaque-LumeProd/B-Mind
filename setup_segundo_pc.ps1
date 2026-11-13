@@ -1,4 +1,4 @@
-﻿$ErrorActionPreference = "Stop"
+$ErrorActionPreference = "Stop"
 $Root = Split-Path -Parent $MyInvocation.MyCommand.Path
 Write-Host "Configurando workspace Antigravity em: $Root"
 
@@ -50,3 +50,4 @@ if (Test-Path "$remotionDir\package.json") {
 }
 
 Write-Host "`nSetup do segundo computador concluido com sucesso!" -ForegroundColor Green
+

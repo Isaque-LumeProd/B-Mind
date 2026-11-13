@@ -47,3 +47,4 @@ Workflow executado sempre que o usuário chamar `/end` para finalizar a sessão 
      - O hash do commit enviado para `origin/main` (ou que já estava 100% sincronizado).
      - Que [HANDOFF_SESSAO.md](file:///D:/Antigravity%203.0/HANDOFF_SESSAO.md) foi atualizado.
      - Eventual aviso se foram gerados novos `.mov`/`.mp4` nesta sessão para copiar por Drive/HD.
+

@@ -41,3 +41,4 @@ Workflow executado sempre que o usuário chamar `/start-mind` para sincronizar e
      - Status do `git pull` (se puxou novos commits ou já estava em dia).
      - Status do ambiente local (`Mind/`, dependências, presença dos brutos `Video Pax/`).
      - **De onde paramos:** resumo da última sessão registrada no `HANDOFF_SESSAO.md` e próximos passos prontos para continuar.
+
