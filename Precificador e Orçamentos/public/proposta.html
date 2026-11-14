@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proposta Comercial Personalizada</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/proposta.css" />
+  </head>
+  <body>
+    <div id="accentStrip" class="prop-accent-strip"></div>
+
+    <div class="prop-container">
+      <header class="prop-topbar">
+        <span id="producerNameEl" class="prop-producer">Produtora Audiovisual</span>
+        <span id="validityPillEl" class="prop-validity-pill">Carregando proposta...</span>
+      </header>
+
+      <div id="proposalRoot">
+        <section class="prop-hero">
+          <span class="prop-badge">Proposta Comercial Personalizada</span>
+          <p id="clientKickerEl" class="prop-client-kicker"></p>
+          <h1 id="projectTitleEl" class="prop-title">Carregando orcamento...</h1>
+          <p id="projectSummaryEl" class="prop-summary"></p>
+
+          <div class="prop-meta-grid">
+            <div class="prop-meta-card">
+              <span>Cliente</span>
+              <strong id="metaClientEl">-</strong>
+            </div>
+            <div class="prop-meta-card">
+              <span>Aos Cuidados de</span>
+              <strong id="metaContactEl">-</strong>
+            </div>
+            <div class="prop-meta-card">
+              <span>Data de Emissao</span>
+              <strong id="metaIssuedEl">-</strong>
+            </div>
+            <div class="prop-meta-card">
+              <span>Validade</span>
+              <strong id="metaExpiresEl">-</strong>
+            </div>
+          </div>
+        </section>
+
+        <section class="prop-section">
+          <div class="prop-section-head">
+            <span>Escopo da Producao</span>
+            <h2>Entregaveis Inclusos no Projeto</h2>
+          </div>
+          <div id="deliverablesGridEl" class="deliverables-grid"></div>
+        </section>
+
+        <section class="prop-section">
+          <div class="prop-section-head">
+            <span>Planejamento</span>
+            <h2>Cronograma de Execucao</h2>
+          </div>
+          <div id="timelineListEl" class="timeline-list"></div>
+        </section>
+
+        <section class="prop-section">
+          <div class="prop-section-head">
+            <span>Condicoes Comerciais</span>
+            <h2>Investimento &amp; Pagamento</h2>
+          </div>
+          <div class="investment-box">
+            <div>
+              <span class="investment-kicker">Investimento Total do Projeto</span>
+              <div id="finalTotalEl" class="investment-amount">R$ 0,00</div>
+              <p id="paymentNotesEl" class="investment-notes"></p>
+            </div>
+            <div class="payment-cards">
+              <div class="payment-option payment-option-highlight">
+                <span id="pixLabelEl">A vista via PIX</span>
+                <strong id="pixTotalEl">R$ 0,00</strong>
+              </div>
+              <div class="payment-option">
+                <span id="installmentLabelEl">Cartao de Credito</span>
+                <strong id="installmentValueEl">R$ 0,00</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="cta-panel">
+            <div class="cta-copy">
+              <h3>Pronto para dar o proximo passo?</h3>
+              <p id="ctaSubtitleEl">Confirme a aprovacao ou solicite um ajuste diretamente pelo WhatsApp.</p>
+            </div>
+            <div class="cta-buttons">
+              <a id="approveBtnEl" class="cta-btn cta-btn-approve" href="#" target="_blank" rel="noopener">
+                Aprovar Proposta no WhatsApp
+              </a>
+              <a id="adjustBtnEl" class="cta-btn cta-btn-adjust" href="#" target="_blank" rel="noopener">
+                Solicitar Ajuste no Escopo
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div id="errorBoxEl" class="prop-error" hidden></div>
+
+      <footer class="prop-footer">
+        <span id="footerBrandEl">Proposta digital gerada exclusivamente para apresentacao ao cliente.</span>
+        <span id="footerIdEl"></span>
+      </footer>
+    </div>
+
+    <script type="module" src="/js/app-proposta.mjs"></script>
+  </body>
+</html>

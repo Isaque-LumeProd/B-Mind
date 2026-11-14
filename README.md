@@ -5,6 +5,7 @@ Repositório central de trabalho sincronizado entre dois computadores:
 - **`Mind/`** — Agentes, Regras e Skills conectados a `.agents/` (inclui preferências aprendidas).
 - **`Clientes/`** — Pastas individuais por cliente com `IDENTIDADE_VISUAL.md`, `REGRAS_ESPECIFICAS.md`, ativos compartilhados e subpasta `projetos/` (XMLs Premiere, legendas `.srt`, guias e áudios `.wav`).
 - **`Operacional/`** — Motor Remotion (`video-seguranca-residencial/`) e repositórios de apoio (não editar manualmente).
+- **`Precificador e Orçamentos/`** — Calculadora audiovisual e gerador de páginas web personalizadas de proposta para clientes (pronto para Vercel).
 - **`Ideias/`** — Área reservada para novos projetos e roteiros.
 
 > **O que fica fora do Git (sincronizar por Drive / HD externo):** arquivos brutos de câmera (`Video Pax/`), `.mov` ProRes 4444 e `.mp4` renderizados para manter o repositório leve e rápido.

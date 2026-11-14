@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "id": "pax-vida-campanha-v1",
+  "baseSlug": "pax-vida-campanha",
+  "versionNumber": 1,
+  "issuedAt": "2026-11-13T12:00:00.000Z",
+  "expiresAt": "2026-11-23T12:00:00.000Z",
+  "createdAt": "2026-11-13T12:00:00.000Z",
+  "client": {
+    "name": "PAX VIDA",
+    "contactName": "Equipe Diretiva Pax Vida",
+    "segment": "Assistencia Familiar & Capela Velorio"
+  },
+  "project": {
+    "title": "Campanha Capela Velorio & Plano Assistencial",
+    "summary": "Producao audiovisual comercial completa com captacao em locacao e edicao estrategica para trafego pago e posicionamento institucional.",
+    "validityDays": 10
+  },
+  "branding": {
+    "accentColor": "#B91C1C",
+    "producerName": "Lume Produtora",
+    "producerWhatsapp": "5567992454721",
+    "producerInstagram": "@lumeprodutora"
+  },
+  "deliverables": {
+    "captureItems": [
+      "Captacao Comercial (Ate 8h) — 1 diaria completa em unidade/capela",
+      "Camera Cinema 4K 10-bit Log + Gimbal e lentes claras",
+      "Kit iluminacao continua 3 pontos + audio duplo (lapela sem fio + boom)",
+      "Captacao aerea com Drone 4K para fachada e entorno"
+    ],
+    "editItems": [
+      "4 videos — Intermediaria (Comercial / GCs + B-roll): decupagem limpa, B-rolls cobrindo fala, grafismos em Montserrat (#B91C1C) com animacao blur-up e sound design",
+      "Pacote personalizado de GCs e Motion Graphics na identidade visual da empresa",
+      "Entrega finalizada em Formato Vertical 9:16 (1080x1920) pronto para trafego pago",
+      "Inclusas ate 2 rodadas consolidadas de revisao e ajustes finos"
+    ]
+  },
+  "timeline": [
+    {
+      "step": 1,
+      "title": "Alinhamento Criativo & Roteirizacao",
+      "duration": "Dia 1 a 2",
+      "description": "Definicao dos ganchos de anuncio, mensagens-chave da Capela Velorio e Plano Assistencial e aprovacao da pauta."
+    },
+    {
+      "step": 2,
+      "title": "Captacao Audiovisual em Locacao",
+      "duration": "Dia 3",
+      "description": "Gravacao de depoimentos/apresentacao na unidade + B-rolls da estrutura moderna e planos aereos de drone."
+    },
+    {
+      "step": 3,
+      "title": "Edicao Comercial & Identidade Visual (GCs)",
+      "duration": "Dias 4 a 7",
+      "description": "Decupagem sem cortes artificiais, audio original limpo, insercao de B-rolls e GCs na identidade Pax Vida."
+    },
+    {
+      "step": 4,
+      "title": "Apresentacao da 1a Versao & Ajustes",
+      "duration": "Dias 8 a 9",
+      "description": "Validacao conjunta via link de revisao e aplicacao de ate 2 rodadas de ajustes finos."
+    },
+    {
+      "step": 5,
+      "title": "Entrega Final dos Arquivos Master",
+      "duration": "Dia 10",
+      "description": "Liberacao dos arquivos finais em alta definicao (MP4 + legendas) prontos para veiculacao."
+    }
+  ],
+  "investment": {
+    "finalTotal": 4200,
+    "pixTotal": 3990,
+    "pixDiscountPercent": 5,
+    "pixDiscountAmount": 210,
+    "maxInstallments": 4,
+    "installmentValue": 1050,
+    "paymentNotes": "50% na aprovacao da proposta para reserva de agenda e 50% na entrega dos videos finais."
+  }
+}

@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Precificador e Orcamentos — Painel Audiovisual</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/main.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand-lockup">
+        <span class="brand-eyebrow">Painel Interno da Produtora</span>
+        <h1 class="brand-title">Precificador &amp; Gerador de Propostas Web</h1>
+      </div>
+      <div class="topbar-meta">
+        <span class="pill-info">Versionamento automatico (_v1, _v2...)</span>
+        <a class="btn btn-secondary btn-inline" href="/proposta/pax-vida-campanha-v1" target="_blank" rel="noopener">
+          Ver Exemplo (Pax Vida)
+        </a>
+      </div>
+    </header>
+
+    <main class="workspace-grid">
+      <!-- COLUNA 1: CLIENTE, PERSONALIZACAO E HISTORICO -->
+      <section class="column-stack">
+        <div class="panel">
+          <div class="panel-header">
+            <h2 class="panel-title">1. Cliente &amp; Personalizacao</h2>
+            <span class="panel-step">Apresentacao</span>
+          </div>
+          <div class="field-grid">
+            <div class="field field-full">
+              <label for="clientName">Nome do Cliente / Empresa *</label>
+              <input id="clientName" type="text" placeholder="Ex.: PAX VIDA" value="PAX VIDA" />
+            </div>
+            <div class="field">
+              <label for="contactName">Responsavel / Contato</label>
+              <input id="contactName" type="text" placeholder="Ex.: Ricardo" value="Diretoria Comercial" />
+            </div>
+            <div class="field">
+              <label for="clientSegment">Segmento</label>
+              <input id="clientSegment" type="text" placeholder="Ex.: Clinica / Servicos" value="Assistencia Familiar" />
+            </div>
+            <div class="field field-full">
+              <label for="projectTitle">Titulo da Proposta / Projeto *</label>
+              <input
+                id="projectTitle"
+                type="text"
+                placeholder="Ex.: Campanha Comercial & Videos 9:16"
+                value="Campanha Capela & Plano Assistencial"
+              />
+            </div>
+            <div class="field field-full">
+              <label for="projectSummary">Resumo Executivo (Exibido no topo da pagina do cliente)</label>
+              <textarea id="projectSummary">Producao audiovisual completa com captacao estruturada e edicao estrategica voltada para geracao de leads e posicionamento de marca.</textarea>
+            </div>
+            <div class="field">
+              <label for="validityDays">Validade (dias)</label>
+              <input id="validityDays" type="number" min="1" max="90" value="10" />
+            </div>
+            <div class="field">
+              <label for="producerWhatsapp">WhatsApp Aprovacao (DDI+DDD+Num)</label>
+              <input id="producerWhatsapp" type="tel" value="5567992454721" placeholder="5567999999999" />
+            </div>
+            <div class="field">
+              <label for="producerName">Nome da Produtora</label>
+              <input id="producerName" type="text" value="Lume Produtora" />
+            </div>
+            <div class="field">
+              <label for="accentColor">Cor da Marca na Proposta</label>
+              <div class="color-row">
+                <input id="accentColor" type="color" value="#B91C1C" />
+                <div id="accentPresets" class="preset-swatches"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-header">
+            <h2 class="panel-title">Orcamentos Salvos (Versionados)</h2>
+            <button id="refreshSavedBtn" type="button" class="btn btn-secondary btn-inline">Atualizar</button>
+          </div>
+          <div id="savedList" class="saved-list"></div>
+        </div>
+      </section>
+
+      <!-- COLUNA 2: CALCULADORA CAPTACAO + EDICAO + ESCOPO + CRONOGRAMA -->
+      <section class="column-stack">
+        <div class="panel">
+          <div class="panel-header">
+            <h2 class="panel-title">2. Captacao Audiovisual</h2>
+            <span class="panel-step">Basico ao Avancado</span>
+          </div>
+          <div class="field-grid">
+            <div class="field field-full">
+              <label for="captureTier">Nivel de Estrutura da Captacao</label>
+              <select id="captureTier"></select>
+              <p id="captureTierHint" class="tier-hint"></p>
+            </div>
+            <div class="field">
+              <label for="captureDays">Quantidade de Diarias</label>
+              <input id="captureDays" type="number" min="0" step="1" value="1" />
+            </div>
+            <div class="field">
+              <label for="captureDayRate">Valor Base por Diaria (R$)</label>
+              <input id="captureDayRate" type="number" min="0" step="50" value="750" />
+            </div>
+          </div>
+          <div id="addonsContainer" class="addons-list"></div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-header">
+            <h2 class="panel-title">3. Edicao, Motion &amp; Entregaveis</h2>
+            <span class="panel-step">Pos-Producao</span>
+          </div>
+          <div class="field-grid">
+            <div class="field">
+              <label for="orientation">Formato de Entrega</label>
+              <select id="orientation"></select>
+            </div>
+            <div class="field">
+              <label for="revisionRounds">Rodadas de Revisao Inclusas</label>
+              <input id="revisionRounds" type="number" min="1" max="10" value="2" />
+            </div>
+          </div>
+
+          <div id="editTiersContainer" class="edit-rows"></div>
+
+          <div class="field-grid" style="margin-top: 12px;">
+            <div class="field">
+              <label for="motionPackagePrice">Pacote Extra GCs / Motion (R$)</label>
+              <input id="motionPackagePrice" type="number" min="0" step="25" value="150" />
+            </div>
+            <div class="field">
+              <label for="operationalCosts">Custos Extras / Locacao / Trilha (R$)</label>
+              <input id="operationalCosts" type="number" min="0" step="25" value="50" />
+            </div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-header">
+            <h2 class="panel-title">4. Escopo &amp; Cronograma do Cliente</h2>
+            <button id="syncScopeBtn" type="button" class="btn btn-secondary btn-inline">
+              Regerar pelo Calculo
+            </button>
+          </div>
+          <div class="field-grid">
+            <div class="field">
+              <label for="captureScopeText">Entregaveis de Captacao (1 linha por item)</label>
+              <textarea id="captureScopeText" rows="5"></textarea>
+            </div>
+            <div class="field">
+              <label for="editScopeText">Entregaveis de Edicao (1 linha por item)</label>
+              <textarea id="editScopeText" rows="5"></textarea>
+            </div>
+          </div>
+
+          <div class="scope-actions-bar" style="margin-top: 14px;">
+            <label style="font-size: 12px; font-weight: 600; color: #d1d5db;">Etapas do Cronograma</label>
+            <button id="resetTimelineBtn" type="button" class="btn btn-secondary btn-inline">
+              Restaurar Padrao
+            </button>
+          </div>
+          <div id="timelineEditor" class="timeline-editor-list"></div>
+        </div>
+      </section>
+
+      <!-- COLUNA 3: RESUMO FINANCEIRO + ACOES DE GERACAO -->
+      <section class="column-stack sticky-summary">
+        <div class="panel summary-card">
+          <div class="panel-header">
+            <h2 class="panel-title">5. Precificacao &amp; Envio</h2>
+            <span class="panel-step">Visao Interna</span>
+          </div>
+
+          <div class="field-grid" style="margin-bottom: 14px;">
+            <div class="field">
+              <label for="marginPercent">Margem de Lucro (%)</label>
+              <input id="marginPercent" type="number" min="0" max="300" step="1" value="30" />
+            </div>
+            <div class="field">
+              <label for="taxPercent">Impostos / NF (%)</label>
+              <input id="taxPercent" type="number" min="0" max="100" step="0.5" value="8" />
+            </div>
+            <div class="field">
+              <label for="pixDiscountPercent">Desconto PIX (%)</label>
+              <input id="pixDiscountPercent" type="number" min="0" max="50" step="1" value="5" />
+            </div>
+            <div class="field">
+              <label for="maxInstallments">Parcelamento Maximo</label>
+              <input id="maxInstallments" type="number" min="1" max="12" step="1" value="4" />
+            </div>
+            <div class="field field-full">
+              <label for="customFinalTotal">Valor Final Fechado Manual (opcional — substitui o sugerido)</label>
+              <input id="customFinalTotal" type="number" min="0" step="50" placeholder="Deixe vazio para usar o sugerido" />
+            </div>
+            <div class="field field-full">
+              <label for="paymentNotes">Condicao Comercial (exibida ao cliente)</label>
+              <input
+                id="paymentNotes"
+                type="text"
+                value="50% na aprovacao para reserva de agenda e 50% na entrega dos videos finais."
+              />
+            </div>
+          </div>
+
+          <div class="kpi-list">
+            <div class="kpi-row">
+              <span>Subtotal Captacao</span>
+              <strong id="kpiCaptureSubtotal">R$ 0,00</strong>
+            </div>
+            <div class="kpi-row">
+              <span>Subtotal Edicao + Motion</span>
+              <strong id="kpiEditSubtotal">R$ 0,00</strong>
+            </div>
+            <div class="kpi-row">
+              <span>Custo Base Total</span>
+              <strong id="kpiBaseCost">R$ 0,00</strong>
+            </div>
+            <div class="kpi-row">
+              <span>Impostos Estimados</span>
+              <strong id="kpiTaxAmount">R$ 0,00</strong>
+            </div>
+            <div class="kpi-row kpi-profit">
+              <span>Lucro Liquido Estimado</span>
+              <strong id="kpiProfitNet">R$ 0,00</strong>
+            </div>
+            <hr class="kpi-divider" />
+            <div class="kpi-total">
+              <span>Valor Final Proposta</span>
+              <strong id="kpiFinalTotal">R$ 0,00</strong>
+            </div>
+          </div>
+
+          <div class="client-payment-preview">
+            <div class="mini-box">
+              <span>A vista no PIX</span>
+              <strong id="kpiPixTotal">R$ 0,00</strong>
+            </div>
+            <div class="mini-box">
+              <span id="kpiInstallmentLabel">Parcelado</span>
+              <strong id="kpiInstallmentValue">R$ 0,00</strong>
+            </div>
+          </div>
+
+          <div class="actions-stack">
+            <button id="saveProposalBtn" type="button" class="btn btn-primary">
+              Salvar Versao &amp; Gerar Pagina do Cliente
+            </button>
+            <button id="previewProposalBtn" type="button" class="btn btn-secondary">
+              Abrir Previa da Pagina Personalizada
+            </button>
+            <button id="copyWhatsappBtn" type="button" class="btn btn-secondary">
+              Copiar Mensagem + Link para WhatsApp
+            </button>
+          </div>
+
+          <div id="statusBanner" class="status-banner" role="status"></div>
+
+          <div id="linkOutputBox" class="link-output-box">
+            <label style="font-size: 11.5px; font-weight: 700; color: #d1d5db;">
+              Link Limpo no Seu Site (apos subir/sincronizar):
+            </label>
+            <code id="cleanLinkCode"></code>
+            <label style="font-size: 11.5px; font-weight: 700; color: #d1d5db;">
+              Link Instantaneo Portatil (funciona na hora sem depender do JSON):
+            </label>
+            <code id="portableLinkCode"></code>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="/js/app-precificador.mjs"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "node --input-type=module -e \"import fs from 'node:fs'; fs.cpSync('orcamentos', 'public/orcamentos', { recursive: true }); for (const f of ['public/index.html', 'public/styles/main.css', 'public/js/app-precificador.mjs', 'public/js/catalog.mjs', 'public/js/pricing-engine.mjs']) { fs.rmSync(f, { force: true }); }\"",
+  "outputDirectory": "public",
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none';"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/proposta.html"
+    },
+    {
+      "source": "/proposta/:id",
+      "destination": "/proposta.html"
+    },
+    {
+      "source": "/proposta",
+      "destination": "/proposta.html"
+    }
+  ]
+}

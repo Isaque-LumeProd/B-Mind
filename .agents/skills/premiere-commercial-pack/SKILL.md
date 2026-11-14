@@ -32,12 +32,13 @@ EDICAO_<NOME_PROJETO>/
 
 1. **Fonte única de verdade em quadros inteiros (`30 fps`):**
    - Definir todos os cortes de A-roll, B-roll, GCs e legendas `.srt` a partir de uma única especificação de quadros para evitar qualquer dessincronização entre XML, áudio master e preview.
-2. **GCs transparentes puros (`V3`):**
+2. **Storyboard de Motion & GCs transparentes puros (`V3` / inserts `V2`):**
+   - **Storyboard antes do render:** sempre que criar animações em motion (inserts explicativos para `V2` ou GCs novos), apresentar primeiro um **Storyboard** explicando cena por cena: trecho de fala/timing, elementos em tela e exatamente como cada animação entra, se movimenta e sai.
    - Renderizar cada GC individualmente com `--codec=prores --prores-profile=4444 --image-format=png --pixel-format=yuva444p10le`.
    - Os arquivos `.mov` exportados para o Premiere **não** devem conter fundo/slate opaco em tela cheia por padrão (flags como `showEndSlate` devem ter `false` como padrão na composição avulsa e `true` apenas no preview, se necessário).
    - Aplicar **centralização horizontal**, animação **`blur-up`** e tipografia **`Montserrat`** (`Black`/`ExtraBold`).
 3. **XML FCP7 XMEML v5 limpo para Premiere:**
-   - Vincular os `.MOV` originais via URL `file://localhost/...` na `V1` (A-roll) e `V2` (cobertura B-roll).
+   - Vincular os `.MOV` originais via URL `file://localhost/...` na `V1` (A-roll) e `V2` (cobertura B-roll). Caso os brutos não possuam B-rolls suficientes ou específicos, gerar novos inserts para a `V2` usando o **Gemini** (`image-generator` / Gemini API para cenas realistas ou específicas) ou **inserts de Motion Graphics** no Remotion (quando decidido pelo agente ou pelo usuário).
    - **Orientação Horizontal (`16:9`) vs. Vertical (`9:16`) e rotação real:** identificar explicitamente o formato da sequência alvo (`1920×1080` horizontal vs. `1080×1920` vertical) e inspecionar `side_data_list` / `rotation` (`-90°`, `90°`, `270°`) via `ffprobe` para calcular as dimensões de exibição reais (`2160×3840` vs. `3840×2160`) e o `Scale` exato (`50` em 4K vertical para `1080×1920`) sem miniaturizar nem distorcer planos.
    - **Nunca apagar o áudio original de fala na timeline do Premiere:** colocar na `A1` o áudio original de cada clipe de fala `.MOV` **vinculado bidirecionalmente (`<link>`)** ao respectivo `<clipitem>` da `V1` (mesmos `in`/`out`/`start`/`end`), evitando depender apenas de WAV único desvinculado; usar faixas separadas sem sobreposição para `BGM` (`A2`), `SFX Pop` (`A3`) e `SFX Whoosh` (`A4`).
    - **Atributos e metadados XMEML estritos:** garantir que todo `id="..."` em `<sequence>`, `<clipitem>` e `<file>` seja atributo XML real (nunca texto literal), que `out`/`end` de cada áudio/SFX nunca excedam a duração real do `.wav`, e declarar `<alphatype>straight</alphatype>` nos ProRes 4444.
