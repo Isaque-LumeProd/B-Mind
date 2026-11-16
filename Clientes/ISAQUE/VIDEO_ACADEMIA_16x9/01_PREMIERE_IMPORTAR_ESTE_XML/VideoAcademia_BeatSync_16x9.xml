@@ -1,0 +1,4751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xmeml>
+<xmeml version="5">
+  <sequence id="sequence-1">
+    <name>VideoAcademia_BeatSync_16x9</name>
+    <duration>2385</duration>
+    <rate>
+      <timebase>30</timebase>
+      <ntsc>FALSE</ntsc>
+    </rate>
+    <marker>
+      <name>ATO 1 — Intro Melódica &amp; Preparo</name>
+      <comment>Rack CTS + anilhas + foco pré-série</comment>
+      <in>0</in>
+      <out>-1</out>
+    </marker>
+    <marker>
+      <name>ATO 2 — DROP 1 (@imvonta_)</name>
+      <comment>Entrada principal no bass heavy 808</comment>
+      <in>368</in>
+      <out>-1</out>
+    </marker>
+    <marker>
+      <name>ATO 3 — Respiro &amp; Pausa Pré-Drop 2</name>
+      <comment>Transição para remada e cabo</comment>
+      <in>910</in>
+      <out>-1</out>
+    </marker>
+    <marker>
+      <name>ATO 4 — DROP 2 (Bloco Pesado)</name>
+      <comment>Clímax de dorsal, crossover e peitoral</comment>
+      <in>1375</in>
+      <out>-1</out>
+    </marker>
+    <marker>
+      <name>ATO 5 — Ponte 5 Golpes &amp; Outro</name>
+      <comment>Golpes isolados + clímax + sorriso final</comment>
+      <in>2082</in>
+      <out>-1</out>
+    </marker>
+    <media>
+      <video>
+        <format>
+          <samplecharacteristics>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <width>1920</width>
+            <height>1080</height>
+            <anamorphic>FALSE</anamorphic>
+            <pixelaspectratio>square</pixelaspectratio>
+            <fielddominance>none</fielddominance>
+            <colordepth>24</colordepth>
+          </samplecharacteristics>
+        </format>
+        <track>
+          <enabled>TRUE</enabled>
+          <locked>FALSE</locked>
+          <clipitem id="clipitem-v-1">
+            <masterclipid>master-file-1</masterclipid>
+            <name>c01 - Rack CTS Vazio (IMG_3970.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>837</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>0</start>
+            <end>58</end>
+            <in>52</in>
+            <out>110</out>
+            <file id="file-1">
+              <name>IMG_3970.MOV</name>
+              <pathurl>file://localhost/D:/Antigravity%203.0/Clientes/ISAQUE/Brutos/V%C3%ADdeo%20academia/cel%20renan/IMG_3970.MOV</pathurl>
+              <rate>
+                <timebase>30</timebase>
+                <ntsc>FALSE</ntsc>
+              </rate>
+              <duration>837</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>30</timebase>
+                      <ntsc>FALSE</ntsc>
+                    </rate>
+                    <width>3840</width>
+                    <height>2160</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-1</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>1</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-1</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>1</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-2">
+            <masterclipid>master-file-2</masterclipid>
+            <name>c02 - Pegando Haltere (IMG_3971.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>149</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>58</start>
+            <end>111</end>
+            <in>71</in>
+            <out>124</out>
+            <file id="file-2">
+              <name>IMG_3971.MOV</name>
+              <pathurl>file://localhost/D:/Antigravity%203.0/Clientes/ISAQUE/Brutos/V%C3%ADdeo%20academia/cel%20renan/IMG_3971.MOV</pathurl>
+              <rate>
+                <timebase>30</timebase>
+                <ntsc>FALSE</ntsc>
+              </rate>
+              <duration>149</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>30</timebase>
+                      <ntsc>FALSE</ntsc>
+                    </rate>
+                    <width>3840</width>
+                    <height>2160</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-2</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>2</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-2</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>2</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-3">
+            <masterclipid>master-file-3</masterclipid>
+            <name>c03 - Anilha 10kg (1) (IMG_3959.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>495</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>111</start>
+            <end>175</end>
+            <in>43</in>
+            <out>107</out>
+            <file id="file-3">
+              <name>IMG_3959.MOV</name>
+              <pathurl>file://localhost/D:/Antigravity%203.0/Clientes/ISAQUE/Brutos/V%C3%ADdeo%20academia/cel%20renan/IMG_3959.MOV</pathurl>
+              <rate>
+                <timebase>30</timebase>
+                <ntsc>FALSE</ntsc>
+              </rate>
+              <duration>495</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>30</timebase>
+                      <ntsc>FALSE</ntsc>
+                    </rate>
+                    <width>3840</width>
+                    <height>2160</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-3</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>3</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-3</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>3</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-4">
+            <masterclipid>master-file-3</masterclipid>
+            <name>c04 - Anilha 10kg (2) (IMG_3959.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>495</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>175</start>
+            <end>229</end>
+            <in>351</in>
+            <out>405</out>
+            <file id="file-3"/>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-4</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>4</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-4</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>4</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-5">
+            <masterclipid>master-file-4</masterclipid>
+            <name>c05 - Foco Pré-Série (IMG_3956.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>4235</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>229</start>
+            <end>332</end>
+            <in>3154</in>
+            <out>3257</out>
+            <file id="file-4">
+              <name>IMG_3956.MOV</name>
+              <pathurl>file://localhost/D:/Antigravity%203.0/Clientes/ISAQUE/Brutos/V%C3%ADdeo%20academia/cel%20renan/IMG_3956.MOV</pathurl>
+              <rate>
+                <timebase>30</timebase>
+                <ntsc>FALSE</ntsc>
+              </rate>
+              <duration>4235</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>30</timebase>
+                      <ntsc>FALSE</ntsc>
+                    </rate>
+                    <width>3840</width>
+                    <height>2160</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-5</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>5</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-5</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>5</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-6">
+            <masterclipid>master-file-1</masterclipid>
+            <name>c06 - Caminhada LEDs Hex (IMG_3970.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>837</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>332</start>
+            <end>368</end>
+            <in>426</in>
+            <out>462</out>
+            <file id="file-1"/>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-6</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>6</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-6</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>6</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-7">
+            <masterclipid>master-file-1</masterclipid>
+            <name>c07 - DROP 1 — Haltere Hex (IMG_3970.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>837</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>368</start>
+            <end>421</end>
+            <in>669</in>
+            <out>722</out>
+            <file id="file-1"/>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-7</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>7</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-7</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>7</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-8">
+            <masterclipid>master-file-5</masterclipid>
+            <name>c08 - Supino Inclinado (IMG_3955.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>333</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>421</start>
+            <end>482</end>
+            <in>55</in>
+            <out>116</out>
+            <file id="file-5">
+              <name>IMG_3955.MOV</name>
+              <pathurl>file://localhost/D:/Antigravity%203.0/Clientes/ISAQUE/Brutos/V%C3%ADdeo%20academia/cel%20renan/IMG_3955.MOV</pathurl>
+              <rate>
+                <timebase>30</timebase>
+                <ntsc>FALSE</ntsc>
+              </rate>
+              <duration>333</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>30</timebase>
+                      <ntsc>FALSE</ntsc>
+                    </rate>
+                    <width>3840</width>
+                    <height>2160</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-8</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>8</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-8</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>8</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-9">
+            <masterclipid>master-file-6</masterclipid>
+            <name>c09 - Crossover Aberto (IMG_3960.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>3493</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>482</start>
+            <end>567</end>
+            <in>1903</in>
+            <out>1988</out>
+            <file id="file-6">
+              <name>IMG_3960.MOV</name>
+              <pathurl>file://localhost/D:/Antigravity%203.0/Clientes/ISAQUE/Brutos/V%C3%ADdeo%20academia/cel%20renan/IMG_3960.MOV</pathurl>
+              <rate>
+                <timebase>30</timebase>
+                <ntsc>FALSE</ntsc>
+              </rate>
+              <duration>3493</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>30</timebase>
+                      <ntsc>FALSE</ntsc>
+                    </rate>
+                    <width>3840</width>
+                    <height>2160</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-9</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>9</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-9</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>9</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-10">
+            <masterclipid>master-file-7</masterclipid>
+            <name>c10 - Rosca Espelho (IMG_3966.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>2691</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>567</start>
+            <end>636</end>
+            <in>55</in>
+            <out>124</out>
+            <file id="file-7">
+              <name>IMG_3966.MOV</name>
+              <pathurl>file://localhost/D:/Antigravity%203.0/Clientes/ISAQUE/Brutos/V%C3%ADdeo%20academia/cel%20renan/IMG_3966.MOV</pathurl>
+              <rate>
+                <timebase>30</timebase>
+                <ntsc>FALSE</ntsc>
+              </rate>
+              <duration>2691</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>30</timebase>
+                      <ntsc>FALSE</ntsc>
+                    </rate>
+                    <width>3840</width>
+                    <height>2160</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-10</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>10</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-10</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>10</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-11">
+            <masterclipid>master-file-5</masterclipid>
+            <name>c11 - Micro-Corte Força (IMG_3955.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>333</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>636</start>
+            <end>653</end>
+            <in>160</in>
+            <out>177</out>
+            <file id="file-5"/>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-11</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>11</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-11</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>11</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-12">
+            <masterclipid>master-file-6</masterclipid>
+            <name>c12 - Micro-Corte Crossover (IMG_3960.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>3493</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>653</start>
+            <end>689</end>
+            <in>2377</in>
+            <out>2413</out>
+            <file id="file-6"/>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-12</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>12</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-12</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>12</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-13">
+            <masterclipid>master-file-8</masterclipid>
+            <name>c13 - Tríceps Mergulho (IMG_3974.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>7448</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>689</start>
+            <end>739</end>
+            <in>4959</in>
+            <out>5009</out>
+            <file id="file-8">
+              <name>IMG_3974.MOV</name>
+              <pathurl>file://localhost/D:/Antigravity%203.0/Clientes/ISAQUE/Brutos/V%C3%ADdeo%20academia/cel%20renan/IMG_3974.MOV</pathurl>
+              <rate>
+                <timebase>30</timebase>
+                <ntsc>FALSE</ntsc>
+              </rate>
+              <duration>7448</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>30</timebase>
+                      <ntsc>FALSE</ntsc>
+                    </rate>
+                    <width>3840</width>
+                    <height>2160</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-13</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>13</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-13</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>13</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-14">
+            <masterclipid>master-file-9</masterclipid>
+            <name>c14 - Puxada Alta Costas (IMG_2952.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>716</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>739</start>
+            <end>807</end>
+            <in>378</in>
+            <out>446</out>
+            <file id="file-9">
+              <name>IMG_2952.MOV</name>
+              <pathurl>file://localhost/D:/Antigravity%203.0/Clientes/ISAQUE/Brutos/V%C3%ADdeo%20academia/IMG_2952.MOV</pathurl>
+              <rate>
+                <timebase>30</timebase>
+                <ntsc>FALSE</ntsc>
+              </rate>
+              <duration>716</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>30</timebase>
+                      <ntsc>FALSE</ntsc>
+                    </rate>
+                    <width>3840</width>
+                    <height>2160</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-14</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>14</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-14</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>14</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-15">
+            <masterclipid>master-file-10</masterclipid>
+            <name>c15 - Match Puxada Lateral (IMG_2948.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>448</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>807</start>
+            <end>825</end>
+            <in>108</in>
+            <out>126</out>
+            <file id="file-10">
+              <name>IMG_2948.MOV</name>
+              <pathurl>file://localhost/D:/Antigravity%203.0/Clientes/ISAQUE/Brutos/V%C3%ADdeo%20academia/IMG_2948.MOV</pathurl>
+              <rate>
+                <timebase>30</timebase>
+                <ntsc>FALSE</ntsc>
+              </rate>
+              <duration>448</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>30</timebase>
+                      <ntsc>FALSE</ntsc>
+                    </rate>
+                    <width>3840</width>
+                    <height>2160</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-15</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>15</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-15</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>15</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-16">
+            <masterclipid>master-file-11</masterclipid>
+            <name>c16 - Voador Peitoral (IMG_2960.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>502</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>825</start>
+            <end>910</end>
+            <in>109</in>
+            <out>194</out>
+            <file id="file-11">
+              <name>IMG_2960.MOV</name>
+              <pathurl>file://localhost/D:/Antigravity%203.0/Clientes/ISAQUE/Brutos/V%C3%ADdeo%20academia/IMG_2960.MOV</pathurl>
+              <rate>
+                <timebase>30</timebase>
+                <ntsc>FALSE</ntsc>
+              </rate>
+              <duration>502</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>30</timebase>
+                      <ntsc>FALSE</ntsc>
+                    </rate>
+                    <width>3840</width>
+                    <height>2160</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-16</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>16</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-16</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>16</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-17">
+            <masterclipid>master-file-12</masterclipid>
+            <name>c17 - Respiro Entre Séries (IMG_2956.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>227</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>910</start>
+            <end>979</end>
+            <in>39</in>
+            <out>108</out>
+            <file id="file-12">
+              <name>IMG_2956.MOV</name>
+              <pathurl>file://localhost/D:/Antigravity%203.0/Clientes/ISAQUE/Brutos/V%C3%ADdeo%20academia/IMG_2956.MOV</pathurl>
+              <rate>
+                <timebase>30</timebase>
+                <ntsc>FALSE</ntsc>
+              </rate>
+              <duration>227</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>30</timebase>
+                      <ntsc>FALSE</ntsc>
+                    </rate>
+                    <width>3840</width>
+                    <height>2160</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-17</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>17</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-17</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>17</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-18">
+            <masterclipid>master-file-13</masterclipid>
+            <name>c18 - Remada Aberta Início (IMG_2954.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>5095</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>979</start>
+            <end>1032</end>
+            <in>4443</in>
+            <out>4496</out>
+            <file id="file-13">
+              <name>IMG_2954.MOV</name>
+              <pathurl>file://localhost/D:/Antigravity%203.0/Clientes/ISAQUE/Brutos/V%C3%ADdeo%20academia/IMG_2954.MOV</pathurl>
+              <rate>
+                <timebase>30</timebase>
+                <ntsc>FALSE</ntsc>
+              </rate>
+              <duration>5095</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>30</timebase>
+                      <ntsc>FALSE</ntsc>
+                    </rate>
+                    <width>3840</width>
+                    <height>2160</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-18</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>18</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-18</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>18</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-19">
+            <masterclipid>master-file-14</masterclipid>
+            <name>c19 - Match Remada Fechada (IMG_2957.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>4685</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1032</start>
+            <end>1139</end>
+            <in>3798</in>
+            <out>3905</out>
+            <file id="file-14">
+              <name>IMG_2957.MOV</name>
+              <pathurl>file://localhost/D:/Antigravity%203.0/Clientes/ISAQUE/Brutos/V%C3%ADdeo%20academia/IMG_2957.MOV</pathurl>
+              <rate>
+                <timebase>30</timebase>
+                <ntsc>FALSE</ntsc>
+              </rate>
+              <duration>4685</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>30</timebase>
+                      <ntsc>FALSE</ntsc>
+                    </rate>
+                    <width>3840</width>
+                    <height>2160</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-19</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>19</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-19</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>19</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-20">
+            <masterclipid>master-file-6</masterclipid>
+            <name>c20 - Crossover Espelho Costas (IMG_3960.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>3493</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1139</start>
+            <end>1182</end>
+            <in>2896</in>
+            <out>2939</out>
+            <file id="file-6"/>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-20</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>20</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-20</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>20</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-21">
+            <masterclipid>master-file-8</masterclipid>
+            <name>c21 - Tríceps Travamento (IMG_3974.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>7448</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1182</start>
+            <end>1225</end>
+            <in>5120</in>
+            <out>5163</out>
+            <file id="file-8"/>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-21</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>21</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-21</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>21</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-22">
+            <masterclipid>master-file-15</masterclipid>
+            <name>c22 - Cabo Sob Hex LEDs (IMG_2959.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>4568</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1225</start>
+            <end>1289</end>
+            <in>183</in>
+            <out>247</out>
+            <file id="file-15">
+              <name>IMG_2959.MOV</name>
+              <pathurl>file://localhost/D:/Antigravity%203.0/Clientes/ISAQUE/Brutos/V%C3%ADdeo%20academia/IMG_2959.MOV</pathurl>
+              <rate>
+                <timebase>30</timebase>
+                <ntsc>FALSE</ntsc>
+              </rate>
+              <duration>4568</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>30</timebase>
+                      <ntsc>FALSE</ntsc>
+                    </rate>
+                    <width>3840</width>
+                    <height>2160</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-22</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>22</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-22</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>22</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-23">
+            <masterclipid>master-file-10</masterclipid>
+            <name>c23 - Pausa — Largando Barra (IMG_2948.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>448</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1289</start>
+            <end>1375</end>
+            <in>281</in>
+            <out>367</out>
+            <file id="file-10"/>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-23</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>23</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-23</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>23</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-24">
+            <masterclipid>master-file-14</masterclipid>
+            <name>c24 - DROP 2 — Remada Pesada (IMG_2957.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>4685</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1375</start>
+            <end>1439</end>
+            <in>4069</in>
+            <out>4133</out>
+            <file id="file-14"/>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-24</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>24</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-24</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>24</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-25">
+            <masterclipid>master-file-13</masterclipid>
+            <name>c25 - Match Remada Aberta (IMG_2954.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>5095</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1439</start>
+            <end>1482</end>
+            <in>4729</in>
+            <out>4772</out>
+            <file id="file-13"/>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-25</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>25</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-25</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>25</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-26">
+            <masterclipid>master-file-6</masterclipid>
+            <name>c26 - Crossover Em Movimento (IMG_3960.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>3493</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1482</start>
+            <end>1568</end>
+            <in>2094</in>
+            <out>2180</out>
+            <file id="file-6"/>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-26</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>26</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-26</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>26</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-27">
+            <masterclipid>master-file-1</masterclipid>
+            <name>c27 - Haltere Geométrico (IMG_3970.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>837</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1568</start>
+            <end>1632</end>
+            <in>542</in>
+            <out>606</out>
+            <file id="file-1"/>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-27</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>27</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-27</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>27</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-28">
+            <masterclipid>master-file-15</masterclipid>
+            <name>c28 - Cabo Ângulo Amplo (IMG_2959.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>4568</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1632</start>
+            <end>1739</end>
+            <in>602</in>
+            <out>709</out>
+            <file id="file-15"/>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-28</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>28</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-28</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>28</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-29">
+            <masterclipid>master-file-11</masterclipid>
+            <name>c29 - Voador Limite (IMG_2960.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>502</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1739</start>
+            <end>1825</end>
+            <in>257</in>
+            <out>343</out>
+            <file id="file-11"/>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-29</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>29</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-29</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>29</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-30">
+            <masterclipid>master-file-5</masterclipid>
+            <name>c30 - Supino Força Final (IMG_3955.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>333</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1825</start>
+            <end>1889</end>
+            <in>212</in>
+            <out>276</out>
+            <file id="file-5"/>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-30</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>30</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-30</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>30</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-31">
+            <masterclipid>master-file-9</masterclipid>
+            <name>c31 - Puxada Costas V-Taper (IMG_2952.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>716</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1889</start>
+            <end>1932</end>
+            <in>497</in>
+            <out>540</out>
+            <file id="file-9"/>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-31</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>31</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-31</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>31</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-32">
+            <masterclipid>master-file-8</masterclipid>
+            <name>c32 - Mergulho Máquina (IMG_3974.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>7448</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1932</start>
+            <end>1996</end>
+            <in>5236</in>
+            <out>5300</out>
+            <file id="file-8"/>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-32</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>32</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-32</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>32</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-33">
+            <masterclipid>master-file-6</masterclipid>
+            <name>c33 - Crossover Close Perfil (IMG_3960.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>3493</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1996</start>
+            <end>2082</end>
+            <in>2526</in>
+            <out>2612</out>
+            <file id="file-6"/>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-33</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>33</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-33</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>33</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-34">
+            <masterclipid>master-file-14</masterclipid>
+            <name>c34 - Golpe 1 — Remada (IMG_2957.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>4685</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>2082</start>
+            <end>2103</end>
+            <in>4231</in>
+            <out>4252</out>
+            <file id="file-14"/>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-34</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>34</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-34</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>34</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-35">
+            <masterclipid>master-file-11</masterclipid>
+            <name>c35 - Golpe 2 — Voador (IMG_2960.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>502</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>2103</start>
+            <end>2125</end>
+            <in>362</in>
+            <out>384</out>
+            <file id="file-11"/>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-35</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>35</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-35</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>35</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-36">
+            <masterclipid>master-file-1</masterclipid>
+            <name>c36 - Golpe 3 — Haltere Hex (IMG_3970.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>837</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>2125</start>
+            <end>2146</end>
+            <in>739</in>
+            <out>760</out>
+            <file id="file-1"/>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-36</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>36</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-36</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>36</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-37">
+            <masterclipid>master-file-9</masterclipid>
+            <name>c37 - Golpe 4 — Dorsais (IMG_2952.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>716</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>2146</start>
+            <end>2172</end>
+            <in>573</in>
+            <out>599</out>
+            <file id="file-9"/>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-37</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>37</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-37</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>37</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-38">
+            <masterclipid>master-file-4</masterclipid>
+            <name>c38 - Respiro — Subida Final (IMG_3956.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>4235</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>2172</start>
+            <end>2254</end>
+            <in>3173</in>
+            <out>3255</out>
+            <file id="file-4"/>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-38</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>38</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-38</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>38</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-39">
+            <masterclipid>master-file-6</masterclipid>
+            <name>c39 - Clímax — Crossover (IMG_3960.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>3493</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>2254</start>
+            <end>2307</end>
+            <in>3063</in>
+            <out>3116</out>
+            <file id="file-6"/>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-39</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>39</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-39</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>39</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-v-40">
+            <masterclipid>master-file-5</masterclipid>
+            <name>c40 - Outro — Sorriso Pós-Série (IMG_3955.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>333</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>2307</start>
+            <end>2385</end>
+            <in>246</in>
+            <out>324</out>
+            <file id="file-5"/>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>10000</valuemax>
+                  <value>50</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-40</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>40</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-40</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>40</clipindex>
+            </link>
+          </clipitem>
+        </track>
+      </video>
+      <audio>
+        <numOutputChannels>2</numOutputChannels>
+        <format>
+          <samplecharacteristics>
+            <depth>16</depth>
+            <samplerate>48000</samplerate>
+          </samplecharacteristics>
+        </format>
+        <track>
+          <enabled>TRUE</enabled>
+          <locked>FALSE</locked>
+          <clipitem id="clipitem-a1-1">
+            <masterclipid>master-file-1</masterclipid>
+            <name>c01 - Rack CTS Vazio (IMG_3970.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>837</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>0</start>
+            <end>58</end>
+            <in>52</in>
+            <out>110</out>
+            <file id="file-1"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-1</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>1</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-1</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>1</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-2">
+            <masterclipid>master-file-2</masterclipid>
+            <name>c02 - Pegando Haltere (IMG_3971.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>149</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>58</start>
+            <end>111</end>
+            <in>71</in>
+            <out>124</out>
+            <file id="file-2"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-2</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>2</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-2</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>2</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-3">
+            <masterclipid>master-file-3</masterclipid>
+            <name>c03 - Anilha 10kg (1) (IMG_3959.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>495</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>111</start>
+            <end>175</end>
+            <in>43</in>
+            <out>107</out>
+            <file id="file-3"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-3</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>3</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-3</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>3</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-4">
+            <masterclipid>master-file-3</masterclipid>
+            <name>c04 - Anilha 10kg (2) (IMG_3959.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>495</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>175</start>
+            <end>229</end>
+            <in>351</in>
+            <out>405</out>
+            <file id="file-3"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-4</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>4</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-4</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>4</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-5">
+            <masterclipid>master-file-4</masterclipid>
+            <name>c05 - Foco Pré-Série (IMG_3956.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>4235</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>229</start>
+            <end>332</end>
+            <in>3154</in>
+            <out>3257</out>
+            <file id="file-4"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-5</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>5</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-5</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>5</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-6">
+            <masterclipid>master-file-1</masterclipid>
+            <name>c06 - Caminhada LEDs Hex (IMG_3970.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>837</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>332</start>
+            <end>368</end>
+            <in>426</in>
+            <out>462</out>
+            <file id="file-1"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-6</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>6</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-6</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>6</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-7">
+            <masterclipid>master-file-1</masterclipid>
+            <name>c07 - DROP 1 — Haltere Hex (IMG_3970.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>837</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>368</start>
+            <end>421</end>
+            <in>669</in>
+            <out>722</out>
+            <file id="file-1"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-7</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>7</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-7</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>7</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-8">
+            <masterclipid>master-file-5</masterclipid>
+            <name>c08 - Supino Inclinado (IMG_3955.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>333</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>421</start>
+            <end>482</end>
+            <in>55</in>
+            <out>116</out>
+            <file id="file-5"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-8</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>8</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-8</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>8</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-9">
+            <masterclipid>master-file-6</masterclipid>
+            <name>c09 - Crossover Aberto (IMG_3960.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>3493</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>482</start>
+            <end>567</end>
+            <in>1903</in>
+            <out>1988</out>
+            <file id="file-6"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-9</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>9</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-9</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>9</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-10">
+            <masterclipid>master-file-7</masterclipid>
+            <name>c10 - Rosca Espelho (IMG_3966.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>2691</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>567</start>
+            <end>636</end>
+            <in>55</in>
+            <out>124</out>
+            <file id="file-7"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-10</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>10</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-10</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>10</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-11">
+            <masterclipid>master-file-5</masterclipid>
+            <name>c11 - Micro-Corte Força (IMG_3955.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>333</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>636</start>
+            <end>653</end>
+            <in>160</in>
+            <out>177</out>
+            <file id="file-5"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-11</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>11</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-11</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>11</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-12">
+            <masterclipid>master-file-6</masterclipid>
+            <name>c12 - Micro-Corte Crossover (IMG_3960.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>3493</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>653</start>
+            <end>689</end>
+            <in>2377</in>
+            <out>2413</out>
+            <file id="file-6"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-12</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>12</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-12</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>12</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-13">
+            <masterclipid>master-file-8</masterclipid>
+            <name>c13 - Tríceps Mergulho (IMG_3974.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>7448</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>689</start>
+            <end>739</end>
+            <in>4959</in>
+            <out>5009</out>
+            <file id="file-8"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-13</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>13</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-13</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>13</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-14">
+            <masterclipid>master-file-9</masterclipid>
+            <name>c14 - Puxada Alta Costas (IMG_2952.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>716</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>739</start>
+            <end>807</end>
+            <in>378</in>
+            <out>446</out>
+            <file id="file-9"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-14</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>14</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-14</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>14</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-15">
+            <masterclipid>master-file-10</masterclipid>
+            <name>c15 - Match Puxada Lateral (IMG_2948.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>448</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>807</start>
+            <end>825</end>
+            <in>108</in>
+            <out>126</out>
+            <file id="file-10"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-15</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>15</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-15</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>15</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-16">
+            <masterclipid>master-file-11</masterclipid>
+            <name>c16 - Voador Peitoral (IMG_2960.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>502</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>825</start>
+            <end>910</end>
+            <in>109</in>
+            <out>194</out>
+            <file id="file-11"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-16</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>16</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-16</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>16</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-17">
+            <masterclipid>master-file-12</masterclipid>
+            <name>c17 - Respiro Entre Séries (IMG_2956.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>227</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>910</start>
+            <end>979</end>
+            <in>39</in>
+            <out>108</out>
+            <file id="file-12"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-17</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>17</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-17</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>17</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-18">
+            <masterclipid>master-file-13</masterclipid>
+            <name>c18 - Remada Aberta Início (IMG_2954.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>5095</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>979</start>
+            <end>1032</end>
+            <in>4443</in>
+            <out>4496</out>
+            <file id="file-13"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-18</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>18</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-18</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>18</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-19">
+            <masterclipid>master-file-14</masterclipid>
+            <name>c19 - Match Remada Fechada (IMG_2957.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>4685</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1032</start>
+            <end>1139</end>
+            <in>3798</in>
+            <out>3905</out>
+            <file id="file-14"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-19</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>19</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-19</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>19</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-20">
+            <masterclipid>master-file-6</masterclipid>
+            <name>c20 - Crossover Espelho Costas (IMG_3960.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>3493</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1139</start>
+            <end>1182</end>
+            <in>2896</in>
+            <out>2939</out>
+            <file id="file-6"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-20</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>20</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-20</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>20</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-21">
+            <masterclipid>master-file-8</masterclipid>
+            <name>c21 - Tríceps Travamento (IMG_3974.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>7448</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1182</start>
+            <end>1225</end>
+            <in>5120</in>
+            <out>5163</out>
+            <file id="file-8"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-21</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>21</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-21</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>21</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-22">
+            <masterclipid>master-file-15</masterclipid>
+            <name>c22 - Cabo Sob Hex LEDs (IMG_2959.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>4568</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1225</start>
+            <end>1289</end>
+            <in>183</in>
+            <out>247</out>
+            <file id="file-15"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-22</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>22</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-22</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>22</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-23">
+            <masterclipid>master-file-10</masterclipid>
+            <name>c23 - Pausa — Largando Barra (IMG_2948.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>448</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1289</start>
+            <end>1375</end>
+            <in>281</in>
+            <out>367</out>
+            <file id="file-10"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-23</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>23</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-23</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>23</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-24">
+            <masterclipid>master-file-14</masterclipid>
+            <name>c24 - DROP 2 — Remada Pesada (IMG_2957.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>4685</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1375</start>
+            <end>1439</end>
+            <in>4069</in>
+            <out>4133</out>
+            <file id="file-14"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-24</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>24</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-24</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>24</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-25">
+            <masterclipid>master-file-13</masterclipid>
+            <name>c25 - Match Remada Aberta (IMG_2954.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>5095</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1439</start>
+            <end>1482</end>
+            <in>4729</in>
+            <out>4772</out>
+            <file id="file-13"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-25</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>25</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-25</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>25</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-26">
+            <masterclipid>master-file-6</masterclipid>
+            <name>c26 - Crossover Em Movimento (IMG_3960.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>3493</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1482</start>
+            <end>1568</end>
+            <in>2094</in>
+            <out>2180</out>
+            <file id="file-6"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-26</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>26</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-26</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>26</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-27">
+            <masterclipid>master-file-1</masterclipid>
+            <name>c27 - Haltere Geométrico (IMG_3970.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>837</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1568</start>
+            <end>1632</end>
+            <in>542</in>
+            <out>606</out>
+            <file id="file-1"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-27</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>27</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-27</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>27</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-28">
+            <masterclipid>master-file-15</masterclipid>
+            <name>c28 - Cabo Ângulo Amplo (IMG_2959.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>4568</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1632</start>
+            <end>1739</end>
+            <in>602</in>
+            <out>709</out>
+            <file id="file-15"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-28</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>28</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-28</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>28</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-29">
+            <masterclipid>master-file-11</masterclipid>
+            <name>c29 - Voador Limite (IMG_2960.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>502</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1739</start>
+            <end>1825</end>
+            <in>257</in>
+            <out>343</out>
+            <file id="file-11"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-29</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>29</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-29</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>29</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-30">
+            <masterclipid>master-file-5</masterclipid>
+            <name>c30 - Supino Força Final (IMG_3955.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>333</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1825</start>
+            <end>1889</end>
+            <in>212</in>
+            <out>276</out>
+            <file id="file-5"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-30</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>30</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-30</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>30</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-31">
+            <masterclipid>master-file-9</masterclipid>
+            <name>c31 - Puxada Costas V-Taper (IMG_2952.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>716</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1889</start>
+            <end>1932</end>
+            <in>497</in>
+            <out>540</out>
+            <file id="file-9"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-31</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>31</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-31</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>31</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-32">
+            <masterclipid>master-file-8</masterclipid>
+            <name>c32 - Mergulho Máquina (IMG_3974.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>7448</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1932</start>
+            <end>1996</end>
+            <in>5236</in>
+            <out>5300</out>
+            <file id="file-8"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-32</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>32</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-32</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>32</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-33">
+            <masterclipid>master-file-6</masterclipid>
+            <name>c33 - Crossover Close Perfil (IMG_3960.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>3493</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1996</start>
+            <end>2082</end>
+            <in>2526</in>
+            <out>2612</out>
+            <file id="file-6"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-33</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>33</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-33</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>33</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-34">
+            <masterclipid>master-file-14</masterclipid>
+            <name>c34 - Golpe 1 — Remada (IMG_2957.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>4685</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>2082</start>
+            <end>2103</end>
+            <in>4231</in>
+            <out>4252</out>
+            <file id="file-14"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-34</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>34</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-34</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>34</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-35">
+            <masterclipid>master-file-11</masterclipid>
+            <name>c35 - Golpe 2 — Voador (IMG_2960.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>502</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>2103</start>
+            <end>2125</end>
+            <in>362</in>
+            <out>384</out>
+            <file id="file-11"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-35</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>35</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-35</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>35</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-36">
+            <masterclipid>master-file-1</masterclipid>
+            <name>c36 - Golpe 3 — Haltere Hex (IMG_3970.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>837</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>2125</start>
+            <end>2146</end>
+            <in>739</in>
+            <out>760</out>
+            <file id="file-1"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-36</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>36</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-36</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>36</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-37">
+            <masterclipid>master-file-9</masterclipid>
+            <name>c37 - Golpe 4 — Dorsais (IMG_2952.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>716</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>2146</start>
+            <end>2172</end>
+            <in>573</in>
+            <out>599</out>
+            <file id="file-9"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-37</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>37</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-37</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>37</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-38">
+            <masterclipid>master-file-4</masterclipid>
+            <name>c38 - Respiro — Subida Final (IMG_3956.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>4235</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>2172</start>
+            <end>2254</end>
+            <in>3173</in>
+            <out>3255</out>
+            <file id="file-4"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-38</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>38</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-38</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>38</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-39">
+            <masterclipid>master-file-6</masterclipid>
+            <name>c39 - Clímax — Crossover (IMG_3960.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>3493</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>2254</start>
+            <end>2307</end>
+            <in>3063</in>
+            <out>3116</out>
+            <file id="file-6"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-39</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>39</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-39</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>39</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-a1-40">
+            <masterclipid>master-file-5</masterclipid>
+            <name>c40 - Outro — Sorriso Pós-Série (IMG_3955.MOV)</name>
+            <enabled>TRUE</enabled>
+            <duration>333</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>2307</start>
+            <end>2385</end>
+            <in>246</in>
+            <out>324</out>
+            <file id="file-5"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.0794</value>
+                </parameter>
+              </effect>
+            </filter>
+            <link>
+              <linkclipref>clipitem-v-40</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>40</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-a1-40</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>40</clipindex>
+            </link>
+          </clipitem>
+        </track>
+        <track>
+          <enabled>TRUE</enabled>
+          <locked>FALSE</locked>
+          <clipitem id="clipitem-a2-bgm">
+            <name>bgm_babydoll_16x9.wav</name>
+            <enabled>TRUE</enabled>
+            <duration>2385</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>0</start>
+            <end>2385</end>
+            <in>0</in>
+            <out>2385</out>
+            <file id="file-16">
+              <name>bgm_babydoll_16x9.wav</name>
+              <pathurl>file://localhost/D:/Antigravity%203.0/Clientes/ISAQUE/VIDEO_ACADEMIA_16x9/03_AUDIO_TRILHA_E_SFX/bgm_babydoll_16x9.wav</pathurl>
+              <rate>
+                <timebase>30</timebase>
+                <ntsc>FALSE</ntsc>
+              </rate>
+              <duration>2385</duration>
+              <media>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>1.0</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+        </track>
+        <track>
+          <enabled>TRUE</enabled>
+          <locked>FALSE</locked>
+          <clipitem id="clipitem-a3-1">
+            <name>sfx_whoosh.wav</name>
+            <enabled>TRUE</enabled>
+            <duration>9</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>54</start>
+            <end>63</end>
+            <in>0</in>
+            <out>9</out>
+            <file id="file-17">
+              <name>sfx_whoosh.wav</name>
+              <pathurl>file://localhost/D:/Antigravity%203.0/Clientes/ISAQUE/VIDEO_ACADEMIA_16x9/03_AUDIO_TRILHA_E_SFX/sfx_whoosh.wav</pathurl>
+              <rate>
+                <timebase>30</timebase>
+                <ntsc>FALSE</ntsc>
+              </rate>
+              <duration>9</duration>
+              <media>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.42</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-a3-2">
+            <name>sfx_riser.wav</name>
+            <enabled>TRUE</enabled>
+            <duration>48</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>284</start>
+            <end>332</end>
+            <in>0</in>
+            <out>48</out>
+            <file id="file-18">
+              <name>sfx_riser.wav</name>
+              <pathurl>file://localhost/D:/Antigravity%203.0/Clientes/ISAQUE/VIDEO_ACADEMIA_16x9/03_AUDIO_TRILHA_E_SFX/sfx_riser.wav</pathurl>
+              <rate>
+                <timebase>30</timebase>
+                <ntsc>FALSE</ntsc>
+              </rate>
+              <duration>48</duration>
+              <media>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.36</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-a3-3">
+            <name>sfx_whoosh.wav</name>
+            <enabled>TRUE</enabled>
+            <duration>9</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>478</start>
+            <end>487</end>
+            <in>0</in>
+            <out>9</out>
+            <file id="file-17"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.42</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-a3-4">
+            <name>sfx_whoosh.wav</name>
+            <enabled>TRUE</enabled>
+            <duration>9</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>685</start>
+            <end>694</end>
+            <in>0</in>
+            <out>9</out>
+            <file id="file-17"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.42</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-a3-5">
+            <name>sfx_whoosh.wav</name>
+            <enabled>TRUE</enabled>
+            <duration>9</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>803</start>
+            <end>812</end>
+            <in>0</in>
+            <out>9</out>
+            <file id="file-17"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.42</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-a3-6">
+            <name>sfx_whoosh.wav</name>
+            <enabled>TRUE</enabled>
+            <duration>9</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1028</start>
+            <end>1037</end>
+            <in>0</in>
+            <out>9</out>
+            <file id="file-17"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.42</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-a3-7">
+            <name>sfx_riser.wav</name>
+            <enabled>TRUE</enabled>
+            <duration>48</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1327</start>
+            <end>1375</end>
+            <in>0</in>
+            <out>48</out>
+            <file id="file-18"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.36</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-a3-8">
+            <name>sfx_whoosh.wav</name>
+            <enabled>TRUE</enabled>
+            <duration>9</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1478</start>
+            <end>1487</end>
+            <in>0</in>
+            <out>9</out>
+            <file id="file-17"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.42</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-a3-9">
+            <name>sfx_whoosh.wav</name>
+            <enabled>TRUE</enabled>
+            <duration>9</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1735</start>
+            <end>1744</end>
+            <in>0</in>
+            <out>9</out>
+            <file id="file-17"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.42</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-a3-10">
+            <name>sfx_whoosh.wav</name>
+            <enabled>TRUE</enabled>
+            <duration>9</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1928</start>
+            <end>1937</end>
+            <in>0</in>
+            <out>9</out>
+            <file id="file-17"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.42</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-a3-11">
+            <name>sfx_riser.wav</name>
+            <enabled>TRUE</enabled>
+            <duration>48</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>2206</start>
+            <end>2254</end>
+            <in>0</in>
+            <out>48</out>
+            <file id="file-18"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.36</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+        </track>
+        <track>
+          <enabled>TRUE</enabled>
+          <locked>FALSE</locked>
+          <clipitem id="clipitem-a4-1">
+            <name>sfx_sub_impact.wav</name>
+            <enabled>TRUE</enabled>
+            <duration>18</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>368</start>
+            <end>386</end>
+            <in>0</in>
+            <out>18</out>
+            <file id="file-19">
+              <name>sfx_sub_impact.wav</name>
+              <pathurl>file://localhost/D:/Antigravity%203.0/Clientes/ISAQUE/VIDEO_ACADEMIA_16x9/03_AUDIO_TRILHA_E_SFX/sfx_sub_impact.wav</pathurl>
+              <rate>
+                <timebase>30</timebase>
+                <ntsc>FALSE</ntsc>
+              </rate>
+              <duration>18</duration>
+              <media>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.55</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-a4-2">
+            <name>sfx_sub_impact.wav</name>
+            <enabled>TRUE</enabled>
+            <duration>18</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>636</start>
+            <end>654</end>
+            <in>0</in>
+            <out>18</out>
+            <file id="file-19"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.55</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-a4-3">
+            <name>sfx_sub_impact.wav</name>
+            <enabled>TRUE</enabled>
+            <duration>18</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>1375</start>
+            <end>1393</end>
+            <in>0</in>
+            <out>18</out>
+            <file id="file-19"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.55</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-a4-4">
+            <name>sfx_sub_impact.wav</name>
+            <enabled>TRUE</enabled>
+            <duration>18</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+            <start>2254</start>
+            <end>2272</end>
+            <in>0</in>
+            <out>18</out>
+            <file id="file-19"/>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>0.55</value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+        </track>
+      </audio>
+    </media>
+  </sequence>
+</xmeml>

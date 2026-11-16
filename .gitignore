@@ -11,6 +11,8 @@ Video Pax/
 
 # === Dependências e Renders Temporários do Motor Remotion ===
 **/node_modules/
+.cache/
+**/.cache/
 Operacional/video-seguranca-residencial/out/
 Operacional/video-seguranca-residencial/public/paxvida/
 Operacional/video-seguranca-residencial/public/paxvida_v2/
